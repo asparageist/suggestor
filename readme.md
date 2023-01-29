@@ -23,9 +23,10 @@ This page is intended to showcase my understanding of JavaScript to this point. 
 * Download my repository to your Desktop
 * Open suggestor.html
 
-## Known Bugs
+## Known Bugs and Shortcomings
 
 * Difficulty getting CSS formatting to change on demand
+* Various CR requirements not yet met
 
 ## License
 
