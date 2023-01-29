@@ -1,0 +1,33 @@
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.ambidextrous {
+  text-align: center;
+}
+
+.morning {
+  color: white;
+  background-color: skyblue;
+  border: 5px solid yellow;
+  border-radius: 75px;
+}
+
+.night {
+  color: silver;
+  background-color: black;
+  border: 5px solid darkblue;
+  border-radius: 75px;
+}
+
+.nosleep {
+  color: red;
+  background-color: yellow;
+  border: 5px solid blue;
+  border-radius: 75px;
+}
+
