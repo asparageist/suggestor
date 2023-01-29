@@ -26,9 +26,9 @@
       <br/>
       <p>Are you a morning or night person?</p>
       <select id="sleep">
-        <option>Morning</option>
-        <option>Night</option>
-        <option>I'll sleep when I'm dead!</option>
+        <option value="1">Morning</option>
+        <option value="2">Night</option>
+        <option value="3">I'll sleep when I'm dead!</option>
       </select>
       <br/>
       <p>What kind of pet do you prefer?</p>
@@ -49,7 +49,8 @@
       </select>
       <br/>
       <br/>
-      <button type="submit">Submit Selection</button>
+      <button type="submit" onclick="alignIt();">Submit Selection</button>
+
     </form>
     <br/>
     <div id="output">
