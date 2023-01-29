@@ -8,6 +8,9 @@ h1 {
 
 form {
   text-align: center;
+  border: 5px solid black;
+  border-radius: 75px;
+  padding: 20px;
 }
 
 .left {
