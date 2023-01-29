@@ -23,11 +23,11 @@ window.onload = function() {
     
     let language;
     if (mental === "Creative") {
-      language = "information about option 1";
+      language = "Might as well start with Python! The level of simplicity in its code structure allows for a coding experience that your personality type would find attractive! Have a blast making your code your own! The only thing Python is missing right now is your masterful manipulation! Make a million programs in one day that all scream Designer Dream! All you need is to VICE for inspiration and answer the NOISE in your soul, and you can own the world!";
     } else if (mental === "Logic") {
-      language = "information about option 2";
+      language = "Check out Ruby! Its focus on productivity aligns perfectly with your personality type. Get in there and get it done! Once you master Ruby, you can do anything! It's a gateway to virtually infinite possibilities. So, VICE and ignore the NOISE emanating from the other room and hunker down to a productivity party with Ruby, The Object-oriented Scripting Language!";
     } else {
-      language = "information about option 3";
+      language = "Sounds like you'd love to get your hands on some JavaScript! Its impossibly complicated user interface is just the thing you need to pull all your hair out trying to figure out how to align all the text to the right when someone says they're right handed! Is the background blue? Probably not, but it will be some day! Just kick back in anxious agony, dreaming of some day when you can VICE, and try to drown out the NOISE from your starving dependants whose very existence you've all but forgotten about and read the same forums over and over again wishing you had started earlier because the deadline is looming with JavaScript! Huzzah!";
     }
     let noise;
     if (companion === "Cats") {
@@ -49,7 +49,7 @@ window.onload = function() {
     } else if (vice === "Green") {
       party = "spark some dank nugs";
     } else {
-      party = "drink some tea or something, I guess. I don't know";
+      party = "drink some tea or something, I guess. I don't know...";
     }
   document.querySelector("span#languageChoice").innerText = language;
 };
